@@ -219,7 +219,7 @@ Create a new file named `Dockerfile` in the root directory with this content:
 ```bash
 # The first instruction is what image we want to base our container on
 # We Use an official Python runtime as a parent image
-FROM python:3.7
+FROM python:3.8
 
 # The enviroment variable ensures that the python output is set straight
 # to the terminal with out buffering it first
@@ -243,7 +243,7 @@ RUN pip install -r requirements.txt
 To associate two containers, one for the web app and the other for the database, create a news file named `docker-compose.yml` with this content: 
 
 ```bash
-version: "3.7"
+version: "3.8"
 
 services:
   db:
