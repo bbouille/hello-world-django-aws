@@ -2,6 +2,12 @@
 
 A Hello World app shipped to AWS using Docker from dev to production environnements.
 
+## TODO 
+
+- Enable a Docker Registry
+- Configure environment settings for stagging and production
+- Ensure to enforce the twelve-factor methodology
+
 ## Preparing the environment
 In order to run the code we will set up a virtual environment using [venv](https://docs.python.org/fr/3/library/venv.html).
 
